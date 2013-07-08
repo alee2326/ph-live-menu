@@ -1,0 +1,369 @@
+body { 
+	background-image: url('chalk.jpg');
+}
+
+/* @group Heading Display (Date, Draughts) */
+
+/* @group Title Header */
+
+#header {
+	height: 75px;
+	width: 99%;
+/*	border-bottom: 1px white dashed;*/
+	position: absolute;
+	border-bottom: 1px dashed white;
+}
+#headerboxa {
+	float: left;
+	font: bold 1.5em Georgia;
+	color: white;
+	text-align: center;
+	z-index: -1;
+	border: 1px;
+	margin-left: 0%;
+	width: 100%;
+}
+#headerboxb {
+	margin-left: 2%;
+	text-align: left;
+	float: left;
+	z-index: 1;
+	position: absolute;
+	padding-bottom: -5px;
+	left: 31.5%;
+
+}
+h1 {
+    color: white;
+	font: 36px Georgia;
+}
+span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:url('images/overlay.png');
+	z-index: 3;
+	opacity: .8;
+}
+/* @end */
+/* @end */
+/*#TitleBarBack {
+	width: 500px;
+	height: 30px;
+	position: relative;
+	z-index: 1;
+	opacity: .4;
+	background: grey;
+	text-align: center;
+	vertical-align: middle;
+}*/
+/* @group Title Category Listing (Beer/ABV/Price) */
+/* #TitleBarBeerPic {
+	width: 5%;
+	height: 30px;
+	position: relative;
+	z-index: 2;
+	top: -30px;
+	float: left;
+}   */
+/*#TitleBarBeerName {
+	height:25px;
+	width: 300px;
+	padding-left: 10px;
+	padding-top: 5px;
+	border-left: 1px white dashed;
+	position: relative;
+	z-index: 2;
+	top: -30px;
+	float: left;
+	font: 1em arial, verdana, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-style:italic;
+}
+#TitleBarInfo {
+	height: 25px;
+	width: 110px;
+	padding-top: 5px;
+	border-left: 1px white dashed;
+	border-right: 1px white dashed;
+	position: relative;
+	z-index: 2;
+	top: -30px;
+	float: left;
+	font: 1em arial, verdana, sans-serif;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-style:italic;
+}
+#TitleBarPrice {
+	height: 25px;
+	width: 100px;
+	padding-top: 5px;
+	position: relative;
+	z-index: 2;
+	top: -30px;
+	float: left;
+	font: bold 1em arial, verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+#TitleBarKeg {
+	height: 25px;
+	width: 135px;
+	padding-top: 5px;
+	position: relative;
+	z-index: 2;
+	top: -30px;
+	float: left;
+	font: 1em arial, verdana, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-style:italic;
+}*/
+
+/* @end */
+
+/*#BeerPic {
+	padding-right: 1%;
+	padding-top: 6px;
+	float: left;
+	width: 60px;
+	text-align: center;
+}*/
+#BeerName {
+	height: 108px;
+	width: 320px;
+	padding-left: 10px;
+	padding-top: 10px;
+	/* border-left: 1px white dashed; */
+	word-wrap: break-word;
+	float: left;
+}
+#BeerName h1 {
+	font: bold 20pt Georgia, Garamond;
+	color: white;
+	word-wrap: break-word;
+	-webkit-margin-before: 	0px;
+	-webkit-margin-after: 0px;
+	margin: 0px;
+	position: relative;
+	text-rendering: optimizelegibility;
+}
+#BeerName h2 {
+	margin: 0px;
+	font: 17pt Georgia;
+	/*color: #888888;*/
+	color: white;
+	margin: 0px;
+
+	word-wrap: break-word;
+}
+#BeerName h3 {
+	font: italic 15pt Georgia;
+	color: white;
+	margin: 0px;
+	padding: 1px;
+    word-wrap: break-word;
+	z-index: 1;
+}
+/* @group BeerNameL */
+/*#BeerNameL {
+        height: 180px;
+        width: 580px;
+        padding-left: 10px;
+        border-left: 1px white dashed;
+        float:left;
+}
+#BeerNameL h1 {
+        color: brown;
+        font: 1.5em Georgia;
+        font-weight: bold;
+        word-wrap: break-word;
+        -webkit-margin-before: 10px;
+        -webkit-margin-after: .8em;
+}
+#BeerNameL h2 {
+        font: 1em Georgia;
+        color: #888888;
+}*/
+/* @end */
+/* @group BeerInfo */
+#BeerInfo {
+	height:108px;
+	width: 100px;
+	text-align: center;
+	font: 18pt Georgia;
+	color: #D8D8D8;
+	float: left;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+#BeerInfo h2 {
+	text-align: center;
+	font: 12pt Georgia;
+	border-bottom: 1px dashed white;
+	padding-bottom: 8px;
+	margin-top: -1px;
+}
+#BeerPour {
+	padding-bottom: -3px;
+}
+/*#BeerIBU {
+	height: 108px;
+	width: 60px;
+	text-align: center;
+	border-right: 1px white dashed;
+
+	float: left;
+}
+#BeerIBU h2 {
+	text-align: center;
+	font: 12pt Georgia;
+	color: #C0C0C0;	
+}*/
+#BeerPrice {
+	color: white;
+	margin-right: 2%;
+	
+	font: bold 22pt Georgia;
+	float: right;
+	padding-top: 27px;
+	}
+#BeerPour {
+	text-align: center;
+	font: 18pt Georgia;
+	color: #C0C0C0;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	margin: 15px;
+	}
+/* @end */
+/*#BeerStatus {
+	height: 160px;
+	width: 100px;
+	float:left;
+	padding-left: 30px;
+	padding-top: 20px;
+	opacity: .8;
+}*/
+#col-1 {
+    width: 30%;
+	margin-top: 2%;
+	margin-left: 2%;
+    left: 0%;
+    position: absolute;
+    padding-top: 55px;
+}
+#col-2 {
+    width: 30%;
+	margin-top: 2%;
+    left: 33.34%;
+    position: absolute;
+    padding-top: 55px;
+}
+#col-3 {
+    width: 30%;
+    left: 65%;
+	margin-top: 2%;
+    position: absolute;
+	padding-top: 55px;
+}
+#content-rowe {
+	font: 1.5em arial, verdana, sans-serif;
+	width: 100%;
+	height: 120px;
+	padding-left: 5%;
+	padding-right: 5%;
+	clear: both;
+}
+#content-row2 {
+	width: 100%;
+	height: 120px;
+	padding-left: 5%;
+	padding-right: 5%;
+	clear: both;
+}
+#content-row2a {
+	height: 100%;
+	width: 100%;
+	font: 1.5em arial, verdana, sans-serif;
+	clear: both;
+	position: relative;
+}
+#content-row2g {
+	width: 100%;
+	height: 120px;
+	background: gray;
+	position: absolute;
+	z-index: -1;
+	opacity:0.4;
+}
+#footer {
+	float: right;
+	clear: both;
+	color: #aeef33;
+    -webkit-margin-before: 5%;
+}
+/* @group Links */
+/*#links1 {
+	width: 100%;
+	height: 180px;
+	z-index: 5;
+	position: absolute;
+    display: block;
+    top: 157;
+    left: 0;
+}
+#links2 {
+	width: 100%;
+	height: 180px;
+	z-index: 5;
+	position: absolute;
+    display: block;
+    top: 337;
+    left: 0;
+}
+#links3 {
+	width: 100%;
+	height: 180px;
+	z-index: 5;
+	position: absolute;
+    display: block;
+    top: 517;
+    left: 0;
+}
+#links4 {
+	width: 100%;
+	height: 180px;
+	z-index: 5;
+	position: absolute;
+    display: block;
+    top: 697;
+    left: 0;
+}
+#links5 {
+	width: 100%;
+	height: 180px;
+	z-index: 5;
+	position: absolute;
+    display: block;
+    top: 877;
+    left: 0;
+}
+#links6 {
+	width: 100%;
+	height: 180px;
+	z-index: 5;
+	position: absolute;
+    display: block;
+    top: 1057;
+    left: 0;
+}*/
+/* @end */
