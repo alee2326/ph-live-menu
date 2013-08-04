@@ -1,7 +1,7 @@
 <html>
 	<head>	
 		<!-- reloads page every 1 minute  -->
-		<META http-equiv="refresh" content="5;URL=http://localhost/">
+		<META http-equiv="refresh" content="600">
 		<!-- adds the font 'Days One' from Google Fonts -->
 <!--		<link href='http://fonts.googleapis.com/css?family=Schoolbell|Days+One' rel='stylesheet' type='text/css'>-->
 		<!-- regular CSS for page -->	
